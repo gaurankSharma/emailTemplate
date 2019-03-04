@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/lib/bootstrap-4.0.0-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <title>email template</title>
+  </head>
+  <body>
+    <div class="container-fluid main-container">
+      <div class="row header-row">
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="col-md-1"></div>
+        <div class="offset-md-8"></div>
+        <div class="col-md-1"></div>
+      </div>
+      <div class="row body-row">
+        <div class="col-md-2 menu-column">
+          <div class="row menu-row" name="template">
+            <div class="col-md-9 offset-md-3">Template</div>
+          </div>
+          <div class="row menu-row" name="csv">
+            <div class="col-md-9 offset-md-3">CSV</div>
+          </div>
+          <div class="row menu-row" name="email">
+            <div class="col-md-9 offset-md-3">e Mail</div>
+          </div>
+        </div>
+        <div class="col-md-10 body-column">
+          <div class="row body-header">
+            <div class="col-md-3 header-title">Name</div>
+            <dic class="offset-md-6"></dic>
+            <div class="col-md-3 header-buttton d-none">
+              <input type="file" name="upload_file" />
+            </div>
+          </div>
+          <div class="row view-body">
+            <div class="col-md-12">
+              <div class="row view-body-row view-template">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-3">T Icon</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row view-body-row view-csv d-none">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-3">CSV Icon</div>
+                    <div class="col-md-3">CSV Icon</div>
+                    <div class="col-md-3">CSV Icon</div>
+                    <div class="col-md-3">CSV Icon</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row view-body-row view-email d-none">
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <label> Csv file : </label>
+                      <select name="files">
+                        <option value="file1">file1</option>
+                        <option value="file2">file2</option>
+                        <option value="file3">file3</option>
+                      </select>
+                    </div>
+                    <div class="col-md-12">
+                      <label> header : </label>
+                      <input type="text" name="file_header" />
+                    </div>
+                    <div class="col-md-12">
+                      <label> field : </label>
+                      <select name="files selectpicker">
+                        <option value="file1">file1</option>
+                        <option value="file2">file2</option>
+                        <option value="file3">file3</option>
+                      </select>
+                    </div>
+                    <div class="col-md-12">
+                      <label> template : </label>
+                      <input type="text" name="file_header" />
+                    </div>
+                    <div class="col-md-12">
+                      <label> search : </label>
+                      <input type="text" name="file_header" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->ç
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/lib/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/lib/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

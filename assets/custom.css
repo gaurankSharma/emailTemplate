@@ -1,0 +1,35 @@
+.main-container {
+    background-color: black;
+  }
+  .header-row {
+    background-color: aliceblue;
+    height: 50px;
+  }
+  .body-row {
+    background-color: khaki;
+  }
+  .menu-column {
+    background-color: antiquewhite;
+  }
+  .body-column {
+    background-color: brown;
+  }
+  .body-header {
+    background-color: cornsilk;
+  }
+  .menu-row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid blue;
+    margin-top: -1px;
+    color: steelblue;
+  }
+  .menu-row:hover {
+    background-color: steelblue;
+    color: antiquewhite;
+  }
+  .active-menu {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+  }
+  
